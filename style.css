@@ -1,0 +1,95 @@
+:root {
+    --qr-code-component-section-color: #D5E1EF;
+    --qr-code-white-space-color: #FFFFFF;
+    --h1-heading-font-color: #1F314F;
+    --p-font-color: #7D889E; 
+}
+
+* {
+    box-sizing: border-box;
+
+    scroll-behavior: smooth; 
+
+    /* Removes all default padding and margin to start on an empty pallet */
+    margin: 0;
+    padding: 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.qr-code-component-section {
+
+    width: 100%; 
+    height: 667px; 
+    background-color: var(--qr-code-component-section-color);
+
+    /*layout: set qr-code-component-section as flex container  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-code-whte-space {
+
+    background-color: var(--qr-code-white-space-color);
+    border-radius: 20px;
+    box-shadow: .5px 3px 3px gray;
+    border: 1px #979797;
+    padding-top: 16px;
+
+    height: 497px;
+    width: 320px;
+
+    padding: 16px 16px 40px 16px;
+
+    display: grid;
+
+}
+
+.qr-image {
+    width: 288px;
+    height: 288px;
+
+    border-radius: 10px;
+
+    margin-bottom: 24px;
+
+    justify-self: center;
+}
+
+.qr-section-title {
+    color: var(--h1-heading-font-color);
+    text-align: center;
+    font-weight: 700;
+    font-family: Outfit, Verdana, sans-serif;
+    font-size: 18px;
+
+    margin-bottom: 16px;
+
+    display: block;
+    justify-self: center;
+    width: 288px;
+    height: 56px;
+  
+}
+
+.qr-section-p {
+    color: var(--p-font-color);
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: Outfit, Verdana, sans-serif;
+
+    display: block;
+    justify-self: center;
+    width: 288px; 
+    height: 57px; 
+}
+
