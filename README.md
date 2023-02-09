@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H), which I built. Frontend Mentor challenges help to improve coding skills by building realistic projects. 
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help to improve coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -38,7 +38,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-The QR Code Component exercise showcases my HTML and CSS skills. I use flexbox to center the QR Code Component and CSS grid to fix the size of the component for all screen sizes. The Figma design file is almost identical for mobile and desktop browser sizes. The difference is the amount of blue background color outside of the component. For this reason no media query is used at this time. Instead, the width of the outside background section is responsive. See code snippet below showing the width set to adjust for any screen size. No media query is included or needed. 
+The QR Code Component exercise showcases my HTML and CSS skills. I use CSS flexbox to center the QR Code Component and CSS grid to fix the size of the component for all screen sizes. 
+
+The Figma design file is almost identical for mobile and larger desktop browser sizes. The difference between the two designs is the amount of blue background color outside of the component. For this reason no media query is used at this time. Instead, the width for the background is responsive. See code snippet below showing the width set to adjust for any screen size. No media query is included or needed. 
 
 ```css
 .qr-code-component-section {
@@ -56,7 +58,9 @@ The QR Code Component exercise showcases my HTML and CSS skills. I use flexbox t
 
 ### Continued development
 
-I did run into HTTP and Javascript errors when checking the layout against Chrome and Firefox browser developer tools. The issues regard cookies and HTTP requests. The issue is outside of the scope for this exercies and is above my skill level at this time. I will come back to this at a later date and after I learn HTTP. MDN Web Docs has a detailed guide on HTTP.  
+I did run into HTTP and Javascript errors when checking the layout against Chrome and Firefox browser developer tools. The issues, which regard cookies and HTTP requests, are not handled. Security and HTTP are outside of the scope of this exercie. The issues are also above my skill level at this time. I will come back to this at a later date. 
+
+Note: MDN Web Docs has a detailed guide on HTTP, which may help.  
 
 ## Author
 
